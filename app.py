@@ -5,6 +5,10 @@ import numpy as np
 my_name = st.secrets["name"]
 st.write(my_name)
 
+student1 = st.secrets.student1
+
+st.write(student1)
+
 st.markdown("""
             # This is a header
             ## This is a sub header!
