@@ -5,7 +5,7 @@ import numpy as np
 my_name = st.secrets["name"]
 st.write(my_name)
 
-student1 = st.secrets.student1
+student1 = st.secrets.students.student1
 
 st.write(student1)
 
