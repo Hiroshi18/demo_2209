@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+my_name = st.secrets["name"]
+st.write(my_name)
+
 st.markdown("""
             # This is a header
             ## This is a sub header!
